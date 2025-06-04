@@ -14,6 +14,8 @@ buka terminal
 ```
 crontab -e
 ```
+Dalam hal ini file auto_reboot.php berada di directory "/root" sesuaikan dengan direktory sebenarnya
+
 ```
 @reboot sleep 300 && nohup php /root/auto_reboot.php > /root/auto_reboot_nohup.log 2>&1 &
 ```
